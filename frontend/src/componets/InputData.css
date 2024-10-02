@@ -1,0 +1,50 @@
+.stylesContentForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 5px;
+    align-items: center;     
+}
+
+.stylesContentInput{
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.stylesInput {
+    width: 85%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}  
+
+.styleErrores{
+    font-size: 0.8rem;
+    color: #eb2929;
+    padding: 5px 20px;
+}
+.containerButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.stylesDescription{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.deleteIcon {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+  }
